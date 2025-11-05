@@ -10,4 +10,8 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    outDir: 'dist', // default Vite output folder
+  },
 })
+
