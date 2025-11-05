@@ -22,7 +22,6 @@ build
 .env.development
 
 # Docker
-Dockerfile
 docker-compose.yml
 .dockerignore
 

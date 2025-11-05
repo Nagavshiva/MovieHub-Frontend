@@ -24,7 +24,6 @@ yarn-error.log
 .idea
 
 # Ignore Docker files themselves (optional)
-Dockerfile
 docker-compose.yml
 
 # Ignore test folders if any

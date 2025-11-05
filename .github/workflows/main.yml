@@ -27,7 +27,7 @@ jobs:
           context: .        # 👈 Path to folder where Dockerfile lives
           file: ./Dockerfile  # 👈 Explicitly tell where Dockerfile is
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/react-ts-docker-demo:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MovieHub-Frontend:latest
 
       - name: Trigger Render Deploy
         run: |
